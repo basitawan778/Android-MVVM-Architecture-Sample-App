@@ -17,7 +17,7 @@ class MenuActivity : AppCompatActivity() {
         setContentView(view)
 
         binding.quotesLL.setOnClickListener {
-//            startActivity(Intent(this, QuotesActivity::class.java))
+            startActivity(Intent(this, QuotesActivity::class.java))
         }
 
         binding.exerciseCV.setOnClickListener {
