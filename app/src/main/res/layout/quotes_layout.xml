@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="quotes"
+            type="com.example.baseapplication.models.quotes.GetRandomQuotes" />
+
+
+        <variable
+            name="onViewClick"
+            type="com.example.baseapplication.utils.OnViewClickListener" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="191dp"
+        android:layout_height="260dp"
+        app:cardCornerRadius="14dp"
+        android:layout_margin="8dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/quotes_bg">
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/quotesTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/manrope_regular"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:maxLines="8"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/authorNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:fontFamily="@font/cocomat_light"
+            android:textColor="@color/progress_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</layout>

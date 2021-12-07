@@ -1,0 +1,3 @@
+rootProject.name='Build And Burn'
+include ':app'
+startParameter.offline=false

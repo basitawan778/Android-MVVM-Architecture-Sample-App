@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="covide_update">Covid Updates</string>
+    <string name="exercise">Exercises</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+</resources>

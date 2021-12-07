@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Burn &amp; Gain</string>
+    <string name="get_quotes">Get Quotes</string>
+    <string name="covide_update">Covid Updates</string>
+    <string name="exercise">Exercises</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+</resources>
